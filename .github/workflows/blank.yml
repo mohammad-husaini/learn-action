@@ -33,7 +33,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-    test:
+  test:
       runs-on: ubuntu-latest
 
       steps:
@@ -42,5 +42,5 @@ jobs:
             echo this is a multi-line script
             pwd
             ls
-        -name: 
-          - run: cat /etc/lsb_release
+        - name: lunix 
+        - run: cat /etc/lsb_release
